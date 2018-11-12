@@ -4,7 +4,8 @@
   "description": "something",
   "main": "server.js",
   "scripts": {
-    "test": "test"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "author": "Chad Wittman",
   "license": "ISC",
