@@ -2,7 +2,7 @@
   "name": "spacex",
   "version": "1.0.0",
   "description": "something",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "test"
   },
@@ -13,5 +13,8 @@
     "express": "^4.16.4",
     "express-graphql": "^0.7.1",
     "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
   }
 }
