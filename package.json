@@ -1,0 +1,17 @@
+{
+  "name": "spacex",
+  "version": "1.0.0",
+  "description": "something",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Chad Wittman",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2"
+  }
+}
