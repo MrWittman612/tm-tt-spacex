@@ -22,8 +22,8 @@ app.use(express.static('public'));
 // 	res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
 // });
 if (process.env.NODE_ENV === 'production') {
-	// app.use('/static', express.static(path.join(__dirname, 'client/build')));
-	app.use(express.static('client/build'));
+	app.use('/static', express.static(path.join(__dirname, 'client/build')));
+	// app.use(express.static('client/build'));
 	app.get('*', (req, res) => {
 		res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
 	});
