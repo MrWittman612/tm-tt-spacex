@@ -1,0 +1,7 @@
+
+
+GET https://api.spacexdata.com/v3/launches
+
+###
+
+GET https://api.spacexdata.com/v3/rockets
