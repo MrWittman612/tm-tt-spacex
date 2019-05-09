@@ -9,7 +9,7 @@ const LAUNCHES_QUERY = gql`
 		launches {
 			flight_number
 			mission_name
-			launch_data_local
+			launch_date_local
 			launch_success
 		}
 	}
@@ -32,6 +32,7 @@ export class Launches extends Component {
 									<LaunchItem key={launch.flight_number} launch={launch} />
 								))}
 							</Fragment>
+							// <h1>hello</h1>
 						);
 					}}
 				</Query>
